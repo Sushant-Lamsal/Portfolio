@@ -37,7 +37,7 @@ x:nth-child(3n+3){
         transform: translateY(-200px);
     }
     100%{
-        transform: translateY(calc(400vh + 100px));
+        transform: translateY(calc(70vh + 100px));
     }
 } 
 html{
@@ -50,8 +50,6 @@ body{
     background: #000000;
     padding-left: 30rem;
 }
-
-
 
 section{
     padding:1rem 5%;
@@ -238,7 +236,7 @@ header .follow a:hover{
 }
 
 .about .row-1 .image img{
-    height: 75%;
+    height: 100%;
     width:100%;
     object-fit: cover;
     border:1rem solid #fff;
