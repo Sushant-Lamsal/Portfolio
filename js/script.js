@@ -1,7 +1,4 @@
-function myFunction() {
-    var element = document.dark-mode;
-    element.classList.toggle("dark-mode");
-}
+
 let menu = document.querySelector('#menu-bars');
 let header = document.querySelector('header');
 
