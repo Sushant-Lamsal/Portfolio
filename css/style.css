@@ -10,7 +10,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -37,7 +37,7 @@ x:nth-child(3n+3){
         transform: translateY(-200px);
     }
     100%{
-        transform: translateY(calc(70vh + 100px));
+        transform: translateY(calc(60vh + 100px));
     }
 } 
 html{
@@ -326,7 +326,7 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width: 100%;
+    width: 50%;
 }
 
 .about .row-2 .box-container{
@@ -520,7 +520,7 @@ header .follow a:hover{
 
 .contact .row form .box::placeholder,
 .contact .row form textarea::placeholder{
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .contact .row form textarea{
