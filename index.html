@@ -14,21 +14,32 @@
 
 </head>
 <body>
-
 <!-- custom cursors  -->
 <div class="cursor-1"></div>
 <div class="cursor-2"></div>
-
 <div id="menu-bars" class="fas fa-bars"></div>
-    
+
 <!-- header section starts  -->
-
+<head>
+    <script>
+        alert("This website is under construction. Click ok to visit site and provide feedback using contact form !");
+    </script>
+    <script>
+        var ico = getElementById("ico");
+                ico.onclick = function(){
+                    document.body.classlist.toogle(".dark-theme");
+                    if(document.body.classlist.toogle(".dark-theme")){
+                        ico.src = "images/sun.png";
+                    }else{
+                        ico.src = "images/moon.png";
+                    }
+                }
+    </script>
+</head>
 <header>
-
     <a href="#" class="logo"> <span>Sushant</span> Lamsal </a>
-
     <nav class="navbar">
-        <a href="#home">Home</a>
+        <a href=" #home">Home</a>
         <a href="#about">About</a>
         <a href="#service">Service</a>
         <a href="#experience">Experience</a>
@@ -36,16 +47,16 @@
     </nav>
 
     <div class="follow">
-        <a href="https://www.facebook.com/sushant.lamsal.39" target="#" class="fab fa-facebook-f"></a>
+        <a href="#" target="#" class="fab fa-facebook-f"></a>
         <a href="https://twitter.com/nft_hector"target="#" class="fab fa-twitter"></a>
         <a href="https://instagram.com/__sushant_lamsal__"target="#" class="fab fa-instagram"></a>
         <a href="https://www.linkedin.com/in/sushant-lamsal-8204761b0/"target="#"class="fab fa-linkedin"></a>
     </div>
-
+    <img src="img/sun.png" id="ico">
 </header>
-<script>
+    <script>
     function rain(){
-        let amount= 200;
+        let amount= 50;
         let body= document.querySelector('body');
         let x = 0;
         while(x < amount){
@@ -114,7 +125,7 @@
             </div>
             <div class="box">
                 <p> <span> Freelance : </span> Available </p>
-                <p> <span> Phone : </span> 9844909414 </p>
+                <!-- <p> <span> Phone : </span> 9844909414 </p> -->
                 <p> <span> Email : </span> sushantlamsal3117@gmail.com </p>
                 <p> <span> Country : </span> Nepal </p>
             </div>
@@ -267,7 +278,7 @@
 
 <section class="contact" id="contact">
 
-    <h1 class="heading"> contact <span> me </span> </h1>
+    <h1 class="heading"> Contact <span> Me </span> </h1>
 
     <div class="icons-container">
 
@@ -278,12 +289,12 @@
             <p>sushantlamsal31@gmail.com</p>
         </div>
 
-        <div class="icons">
+        <!-- <div class="icons">
             <i class="fas fa-phone"></i>
             <h3>My Number</h3>
             <p>+977 9844909414</p>
             <p>+977 9806764612</p>
-        </div>
+        </div> -->
 
         <div class="icons">
             <i class="fas fa-map-marker-alt"></i>
@@ -295,10 +306,10 @@
     <div class="row">
 
         <form action="https://formsubmit.co/sushantlamsal3117@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Name" class="box">
-            <input type="email" name="email" placeholder="Email" class="box">
-            <input type="number" name="number" placeholder="Number" class="box">
-            <textarea name="message" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="text" name="name" placeholder="Your Name" class="box">
+            <input type="email" name="email" placeholder="Your Email" class="box">
+            <input type="number" name="number" placeholder="Your Number" class="box">
+            <textarea name="message" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
             <button type="submit" class="btn" value="Send">Send Message</button>
         </form>
 
@@ -310,12 +321,12 @@
 
 
 <!-- contact section ends -->
-
 <!-- footer section  -->
 <footer class="footer"> Created By <span> Sushant Lamsal </span> | All Rights Reserved © </footer>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+
 
 </body>
 </html>

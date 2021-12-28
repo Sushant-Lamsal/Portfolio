@@ -34,4 +34,8 @@ document.querySelectorAll('a').forEach(links =>{
         cursor2.classList.remove('active');
     }
 
+    var icon = document.getElementById("icon");
+    icon.onclick = function() {
+        document.body.classList.toogle("dark-theme");
+    }
 });
