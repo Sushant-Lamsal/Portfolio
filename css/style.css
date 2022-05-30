@@ -213,6 +213,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
+  text-align: center;
 }
 .about-container .right-about {
   display: grid;
@@ -544,7 +545,7 @@ section {
   padding-top: 3.5rem;
 }
 .contact-content-con .left-contact {
-  flex: 2;
+  flex: 3;
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
@@ -637,25 +638,28 @@ section {
   display: flex;
   justify-content: center;
 }
-.submit-btn{
+.contact-content-con .right-contact .submit-btn button {
   background-color: var(--color-secondary);
-  color: rgb(0, 0, 0);
-  font-style: normal;
-  padding: 7px 20px;
-  border: 0px solid green;
-  border-radius: 33px;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: justify;
-  letter-spacing: 0.6px;
-  font-size: 22px;
+  color: var(--color-white);
+  border: none;
+  padding: 0.8rem 1.1rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
-.submit-btn :hover{
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  transition: 0.5s linear;
-  
+.contact-content-con .right-contact .submit-btn span{
+  cursor: pointer;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  transition: all 0.4s ease-in-out;
+  margin: 0;
+  padding-right:14px;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
 /*Independed components*/
 .btn-con {
   display: flex;
